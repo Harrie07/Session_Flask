@@ -13,9 +13,15 @@ A hands-on workshop to understand Flask web framework by building a Student Note
 
 ## Project Structure
 student_notes/
-├── README.md
-├── app.py
-└── templates/
-   ├── base.html
-   ├── index.html
-   └── add_notes.html
+│
+├── README.md          # Project documentation
+│
+├── app.py            # Main application file with all routes
+│
+└── templates/        # HTML template files
+│
+├── base.html     # Base template with common structure
+│
+├── index.html    # Homepage template
+│
+└── add_notes.html # Template for adding new notes
