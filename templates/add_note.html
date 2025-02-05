@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Add a Note</h2>
+    <form method="POST" action="/save">
+        <input type="text" name="note" required>
+        <button type="submit" class="btn btn-success">Save Note</button>
+    </form>
+    <a href="/" class="btn btn-secondary mt-3">Back to Home</a>
+{% endblock %}
+
