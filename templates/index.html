@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Your Notes</h2>
+    <ul>
+        {% for note in notes %}
+            <li>{{ note }}</li>
+        {% else %}
+            <li>No notes added yet.</li>
+        {% endfor %}
+    </ul>
+    <a href="/add" class="btn btn-primary">Add a New Note</a>
+{% endblock %}
