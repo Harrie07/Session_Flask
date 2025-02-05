@@ -1,0 +1,13 @@
+Command for execution:
+
+
+python --version
+python3 --version for Linux
+pip --version
+
+sudo apt install python3-pip  #Linux Installation for PIP
+
+pip install --upgrade pip #Upgrade Pip for Windows/Linux
+
+
+
